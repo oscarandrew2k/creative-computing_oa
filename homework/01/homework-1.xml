@@ -1,0 +1,17 @@
+<bookshelf>
+	<currently-reading-section>
+		<artsits-section>
+			<Zaha-Hadid />
+			<Jean-Michel-Basquiat />
+		</artsits-section>
+		<philosophy-shelf>
+			<Auto-Biogroaphy-Of-Malcolm-X />
+			<Emergent-Strategies />
+			<Doing-The-Work />
+		</philosophy-shelf>
+	</currently-reading-section>
+	<want-to-read>
+		<James-Baldwin />
+		<Creative-Confidence />
+	</want-to-read>
+</bookshelf>
