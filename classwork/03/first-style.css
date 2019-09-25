@@ -1,0 +1,29 @@
+h1 {
+	color: blue;
+	margin: 0;
+}
+
+h2{
+	color: pink;
+	margin: 0;
+	text-align: center;
+	border: dashed 5px gray;
+}
+
+p {
+	font-family: "helvetica"; 
+	background-color: white;
+	color: black;
+}
+
+body{
+	background-color: white;
+}
+
+.address {
+	color: chocolate;
+}
+
+.header-title {
+	font-size: 100px;
+}

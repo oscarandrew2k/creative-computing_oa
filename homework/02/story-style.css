@@ -1,0 +1,55 @@
+h1 {
+	color: orange;
+	margin: 0;
+	font-family: "futura";
+}
+
+h2{
+	color: orange;
+	margin: 0;
+	text-align: center;
+	border: bold 5px pink;
+}
+
+h3{
+	color: orange;
+	margin: 0;
+	text-align: center;
+	border: solid 5px orange;
+	font-family: "arial";
+}
+
+h5{
+	background-color: lightskyblue ;
+}
+
+h6 {
+	background-color: lightskyblue ;
+}
+
+p {
+	font-family: "futura"; 
+	background-color: blue;
+	color: orange;
+}
+
+ol{
+	font-family: "futura"; 
+	background-color: white;
+	color: orange;
+}
+
+body{
+	font-family: "futura"; 
+	background-color: pink ;
+	color: orange;
+}
+
+.links1 {
+	background-color: white
+}
+
+.links2 {
+	background-color: orange
+}
+
