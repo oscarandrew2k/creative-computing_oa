@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+body { display: flex; }
+div { flex: 1; }
+
+</style>	
+</head>
+<body>
+
+<div id= "div1">Oscar</div>
+
+<script>
+console.log("you got here");
+//this makes a random number of divs?
+var counter = 0;
+var randomnumber = Math.random()*10;
+var string = "";
+
+console.log(randomnumber);
+
+while (counter < randomnumber) {
+	counter = counter + 1;
+	string = string + "<div></div>";
+}
+
+document.getElementById("div1").innerHTML = string
+
+
+//this creates a random color through HSL
+var hue1 = Math.random() * 255;
+var saturation1 = Math.random() * 100;
+var lightness1 = Math.random() * 100;
+
+document.getElementById("div-color").style.color = "hsl(" + hue1 + "," + saturation1 "%," +lightness1% ")";
+
+
+</script>
+</body>
+</html>

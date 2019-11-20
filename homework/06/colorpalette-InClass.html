@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+body { display: flex; }
+div { flex: 1; }
+
+</style>	
+</head>
+<body>
+
+<script>
+
+//this makes a random number of divs?
+var counter = 0;
+var randomnumber = Math.floor(Math.random()*100);
+
+while (counter < randomnumber) {
+	counter = counter + 1;
+	var d = document.createElement("div");
+	//var hue = Math.floor(Math.random() * 255 );
+	var percent = Math.floor(Math.random() * 100);
+	var color = "hsl(" + 100 + ", " +  percent + "%, " + percent + "%)"
+	d.style.backgroundColor = color;
+	document.body.appendChild(d);
+}
+
+
+//this creates a random color through HSL
+
+
+</script>
+</body>
+</html>

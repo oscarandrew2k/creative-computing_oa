@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+
+function random(low, high){
+
+
+	var num = Math.floor(Math.random() * (high-low) + low);
+	// "+ 100" is setting range minimum at 100
+	return num;
+
+
+
+}
+
+var color = "hsl(" + random(300, 350) + ", " + random(50, 80) +  "%, " + random(60, 70) + "%)";
+
+document.body.style.backgroundColor = color;
+
+
+
+
+</script>
+</body>
+</html>

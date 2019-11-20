@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+//https://github.com/dariusk/corpora/tree/master/data
+
+function extract(array){
+	// return a random element from the array
+	var index = Math.floor(Math.random() * array.length );
+	return array[index];
+
+
+
+
+
+}
+
+var list = [
+      "boardroom",
+      "boasting",
+      "bodyguard",
+      "boldness",
+      "bomber",
+      "bondage",
+      "bonding",
+      "bones",
+      "bonus",
+      "bookmark",
+      "boomer",
+      "booty",
+      "bounds",
+      "bowling",
+      "brainstorming",
+      "breadth",
+      "breaker",
+      "brewer",
+      "brightness",
+      "broccoli",
+
+];
+
+var phrase = "Distance makes the " + extract(list) +  " grow fonder.";
+
+
+document.body.innerHTML = phrase;
+
+</script>
+</body>
+</html>
